@@ -12,9 +12,9 @@ jobs:
       - uses: "ruvasqm/puppeteer-pdf-action@master"
         with:
           url: https://ruvasqm.tech/resume
-          output-file-path: "./public/CV_ruben_vasquez.pdf"
+          output-file-path: "./public/cv_ruben_vasquez.pdf"
       - run: |
           git config --global user.email "ruvasqm@gmail.com"
           git config --global user.name "Ruben Vasquez"
           git add './public/cv_ruben_vasquez.pdf'
-          git commit --amend --no-edit
+          git commit -m "chore(resume): update resume pdf"
