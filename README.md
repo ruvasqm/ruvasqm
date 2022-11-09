@@ -129,3 +129,4 @@
 - [ ] Add parallax to About
 - [ ] Add Projects
 - [ ] Add cool skills section?
+- [ ] Add links page
