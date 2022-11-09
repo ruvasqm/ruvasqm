@@ -1,2 +1,2 @@
 [functions]
-    include_files = "public/cv_ruben_vasquez.pdf"
+    included_files = ["public/cv_ruben_vasquez.pdf"]
