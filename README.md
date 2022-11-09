@@ -124,5 +124,8 @@
 
 ## TODO
 
-[ ] Transitions
-[ ] Add scrollbar animations
+- [ ] Transitions
+- [ ] Add scrollbar animations
+- [ ] Add parallax to About
+- [ ] Add Projects
+- [ ] Add cool skills section?
