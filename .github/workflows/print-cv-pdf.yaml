@@ -16,5 +16,5 @@ jobs:
       - run: |
           git config --global user.email "ruvasqm@gmail.com"
           git config --global user.name "Ruben Vasquez"
-          git add './public/CV_ruben_vasquez.pdf'
+          git add './public/cv_ruben_vasquez.pdf'
           git commit --amend --no-edit
