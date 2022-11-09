@@ -14,8 +14,7 @@ jobs:
           url: https://ruvasqm.tech/resume
           output-file-path: "./public/CV_ruben_vasquez.pdf"
       - run: |
-          git config --global user.email "ruvasqm@gmail"
+          git config --global user.email "ruvasqm@gmail.com"
           git config --global user.name "Ruben Vasquez"
           git add './public/CV_ruben_vasquez.pdf'
-          git commit --amend -m --no-edit
-          git push --force
+          git commit --amend --no-edit
