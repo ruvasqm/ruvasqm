@@ -72,6 +72,7 @@ body,
     @apply text-white;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+    display: block !important;
   }
   html {
     /* petty hack to make the html fit page */
