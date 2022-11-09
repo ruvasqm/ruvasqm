@@ -8,15 +8,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: "ruvasqm/puppeteer-pdf-action@master"
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Print pdf
+        uses: "ruvasqm/puppeteer-pdf-action@master"
         with:
           url: https://ruvasqm.tech/resume
           output-file-path: "./public/cv_ruben_vasquez.pdf"
-      - run: |
-          git config --global user.email "ruvasqm@gmail.com"
-          git config --global user.name "Ruben Vasquez"
-          git pull
-          git add './public/cv_ruben_vasquez.pdf'
-          git commit --amend --no-edit
-          git push
+      - name: Commit and push changes
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "chore(pdf): automatic pdf generation"
