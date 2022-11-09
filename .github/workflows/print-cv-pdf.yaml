@@ -17,4 +17,5 @@ jobs:
           git config --global user.email "ruvasqm@gmail.com"
           git config --global user.name "Ruben Vasquez"
           git add './public/cv_ruben_vasquez.pdf'
-          git commit -m "chore(resume): update resume pdf"
+          git commit -amend --no-edit
+          git push
