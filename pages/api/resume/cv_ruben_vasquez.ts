@@ -16,7 +16,6 @@ export default function handler(
     );
     const file = fs.createReadStream(filePath);
     res.setHeader("Content-Type", "application/pdf");
-    res.setHeader("Content-Disposition", 'inline; filename="resume.pdf"');
     res.status(200).send(file);
   } catch (error: any) {
     res.status(500).json({ error });
