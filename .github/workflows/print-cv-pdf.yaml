@@ -1,0 +1,21 @@
+name: Convert resume to PDF
+on:
+  push:
+    branches:
+      - master
+jobs:
+  make-cv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: "ruvasqm/puppeteer-pdf-action@master"
+        with:
+          url: https://ruvasqm.tech/resume
+          output-file-path: "./public/CV_ruben_vasquez.pdf"
+      - run: |
+          git config --global user.email "ruvasqm@gmail"
+          git config --global user.name "Ruben Vasquez"
+          git add './public/CV_ruben_vasquez.pdf'
+          git commit --amend -m --no-edit
+          git push --force

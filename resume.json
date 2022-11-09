@@ -1,0 +1,385 @@
+{
+    "basics": {
+      "name": "Ruben Vasquez",
+      "label": "Developer",
+      "gender": "male",
+      "image": "/me.jpg",
+      "email": "ruvasqm@gmail.com",
+      "phone": "+584127154693",
+      "url": "https://ruvasqm.tech",
+      "summary": "I'm a software developer with background in several areas, like embedded systems and web development. Currently I work with Javascript, Typescript and Python.",
+      "location": {
+        "address": "El Paraiso",
+        "postalCode": "1020",
+        "city": "Caracas",
+        "countryCode": "VE",
+        "region": "Distrito Capital"
+      },
+      "profiles": [
+        {
+            "network": "Twitter",
+            "username": "rdvm69",
+            "url": "https://twitter.com/rdvm69"
+        },
+        {
+            "network": "GitHub",
+            "username": "ruvasqm",
+            "url": "https://github.com/ruvasqm"
+        },
+        {
+            "network": "LinkedIn",
+            "username": "ruvasqm",
+            "url": "https://www.linkedin.com/in/ruvasqm/"
+        },
+        {
+            "network": "Instagram",
+            "username": "rvasqm",
+            "url": "https://www.instagram.com/rvasqm/"
+        },
+        {
+            "network": "Reddit",
+            "username": "ruvasqm",
+            "url": "https://www.reddit.com/u/ruvasqm"
+        },
+        {
+            "network": "Gmail",
+            "username": "ruvasqm",
+            "url": "mailto:ruvasqm@gmail.com"
+        },
+        {
+            "network": "Telegram",
+            "username": "ruvasqm",
+            "url": "https://t.me/ruvasqm"
+        },
+        {
+            "network": "Whatsapp",
+            "username": "ruvasqm",
+            "url": "https://wa.me/584127154693"
+        },
+        {
+            "network": "Discord",
+            "username": "ruvasqm#8916",
+            "url": "https://discordapp.com/users/275111689748480001/"
+        }
+        ]
+    },
+    "work": [{
+      "name": "TecSec",
+      "position": "Junior Full Stack Developer",
+      "url": "",
+      "startDate": "2014-01-01",
+      "endDate": "2016-04-28",
+      "summary": "TecSec was a small company that developed software for the Venezuelan government. I worked there as a junior developer, using C#, ASP.NET MVC, Ruby, and others to build access control systems, CRMs and ERPs.",
+      "highlights": [
+        "Code review",
+        "Customer support",
+        "Bug fixing",
+        "Documentation"
+      ]
+    },
+    {
+        "name": "CaribeDevelopers LLC",
+        "position": "Full Stack Web Developer",
+        "url": "http://caribedevelopers.com/",
+        "startDate": "2017-01-28",
+        "endDate": "2019-01-28",
+        "summary": "CaribeDevelopers is a small company that develops web applications for small and medium businesses. I worked there as a full stack developer, using mostly Javascript, .NET and JPA/JSP to build web applications.",
+        "highlights": [
+          "Code review",
+          "Bug fixing",
+          "Documentation",
+          "Pair programming"
+        ]
+    },
+    {
+        "name": "Freelance",
+        "position": "Full Stack Web Developer",
+        "url": "",
+        "startDate": "2015-01-01",
+        "endDate": "Present",
+        "summary": "I've worked as a freelancer for several companies, developing web applications and REST APIs using Javascript, Typescript, Python, .NET and Java.",
+        "highlights": [
+          "Project management",
+          "Budget management"
+        ]
+    },
+    {
+        "name": "Tutenlabs",
+        "position": "Full Stack Web Developer",
+        "url": "https://www.tutenlabs.com/",
+        "startDate": "2021-11-03",
+        "endDate": "2022-05-03",
+        "summary": "Tutenlabs is a company that develops web applications for small and medium businesses. I worked there as a full stack developer, using mostly React and Spring Boot to build their SaaS platform.",
+        "highlights": [
+          "Code review",
+          "Bug fixing",
+          "Documentation",
+          "Pair programming",
+          "Unit Testing",
+          "Agile development",
+          "Scrum",
+          "Gitflow"
+        ]
+    }
+],
+    "volunteer": [{
+      "organization": "Especialmente Uno",
+      "position": "Volunteer",
+      "url": "https://instagram.com/especialmenteuno",
+      "startDate": "2022-10-12",
+      "endDate": "",
+      "summary": "Especialmente uno is a non-profit organization that helps young people with ASD (Autism Spectrum Disorder) and their families. I'm a volunteer there, helping with the social media and the website.",
+      "highlights": [
+        "Social media",
+        "Website"
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Simon Bolivar",
+      "url": "http://www.usb.ve/",
+      "area": "Electronics Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2010-09-07",
+      "endDate": "Unfinished",
+      "score": "3.0",
+      "courses": [
+        ""
+      ]
+    }],
+    "awards": [{
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }],
+    "certificates": [{
+      "name": "EF SET English Certificate", 
+      "date": "2020-10-14",
+      "issuer": "EFSET",
+      "url": "https://www.efset.org/cert/1H242L"
+    }],
+    "publications": [{
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
+    }],
+    "skills": [{
+      "name": "ReactJS",
+      "type": "Library",
+      "level": "Expert",
+      "keywords": [
+        "Redux",
+        "React Native",
+        "Next.js",
+        "Gatsby",
+        "Styled Components",
+        "Material UI",
+        "Apollo"
+      ]    
+    },
+    {
+        "name": "NodeJS",
+        "type": "Runtime",
+        "level": "Expert",
+        "keywords": [
+            "Express",
+            "Restify",
+            "Sequelize",
+            "Mongoose",
+            "Jest",
+            "Winston",
+            "Prisma",
+            "GraphQL"
+        ]
+    },
+    {
+        "name": "Spring Boot",
+        "type": "Framework",
+        "level": "Novice",
+        "keywords":  [
+            "Liquidbase",
+            "Kafka",
+            "Postgres",
+            "Redis"
+        ]
+    },
+    {
+        "name": "Flask",
+        "type": "Framework",
+        "level": "Novice",
+        "keywords": [
+            "SQLAlchemy",
+            "Jinja",
+            "Celery",
+            "Redis"
+        ]
+    },
+    {
+        "name": "Rust",
+        "type": "Language",
+        "level": "Novice",
+        "keywords": []
+    },
+    {
+        "name": "Python",
+        "type": "Language",
+        "level": "Intermediate",
+        "keywords" :[]
+    },
+    {
+        "name": "Javascript",
+        "type": "Language",
+        "level": "Expert",
+        "keywords": [
+            "Typescript",
+            "ESNext"
+        ]
+    },
+    {
+        "name": "C++",
+        "type": "Language",
+        "level": "Intermediate",
+        "keywords": []
+    },
+    {
+        "name": "SQL",
+        "type": "Language",
+        "level": "Intermediate",
+        "keywords": [
+            "Postgres",
+            "MySQL"
+        ]
+    },
+    {
+        "name": "VS Code",
+        "type": "Tooling",
+        "level": "Expert",
+        "keywords": []
+    },
+    {
+        "name": "Git",
+        "type": "Tooling",
+        "level": "Expert",
+        "keywords": []
+    },
+    {
+        "name": "Docker",
+        "type": "Infrastructure",
+        "level": "Intermediate",
+        "keywords": []
+    },
+    {
+        "name": "Kubernetes",
+        "type": "Infrastructure",
+        "level": "Novice",
+        "keywords": []
+    },
+    {
+        "name": "AWS",
+        "type": "Infrastructure",
+        "level": "Novice",
+        "keywords": []
+    },
+    {
+        "name": "Linux",
+        "type": "Tooling",
+        "level": "Intermediate",
+        "keywords": []
+    },
+    {
+        "name": "Windows",
+        "type": "Tooling",
+        "level": "Expert",
+        "keywords": []
+    },
+    {
+        "name": "Jira",
+        "type": "Tooling",
+        "level": "Expert",
+        "keywords": []
+    },
+    {
+        "name": "Bash",
+        "type": "Tooling",
+        "level": "Intermediate",
+        "keywords": []
+    },
+    {
+        "name": "Vite",
+        "type": "Tooling",
+        "level": "Novice",
+        "keywords": []
+    },
+    {
+        "name": "Webpack",
+        "type": "Tooling",
+        "level": "Intermediate",
+        "keywords": []
+    },
+    {
+        "name": "Jest",
+        "type": "Framework",
+        "level": "Intermediate",
+        "keywords": []
+    }
+],
+    "languages": [{
+      "language": "English",
+      "fluency": "C2",
+      "certificate": "https://www.efset.org/cert/1H242L"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native",
+      "certificate": ""
+    }],
+    "interests": [
+        {
+            "name": "Video Games",
+            "keywords": [
+                "League of Legends",
+                "Valorant"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Rock",
+                "Metal",
+                "Jazz",
+                "Blues",
+                "EDM",
+                "Drum and Bass",
+                "Salsa",
+                "Bachata"
+            ]
+        },
+        {
+            "name": "Bodybuilding",
+            "keywords": [
+                "Calisthenics",
+                "Yoga",
+                "Weightlifting",
+                "Swimming"
+            ]
+        }
+    ],
+    "references": [{
+      "name": "",
+      "reference": ""
+    }],
+    "projects": [{
+      "name": "",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "",
+      "url": "",
+      "roles": [],
+      "entity": "",
+      "type": ""
+    }]
+  }
