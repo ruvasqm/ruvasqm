@@ -57,16 +57,32 @@ body,
   height: 100%;
 }
 
+@page {
+  margin: 0;
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+  size: A4 !important;
+}
 @media print {
-  @page {
-    margin: 0;
+  html,
+  body,
+  #__next,
+  #__next > main {
+    @apply bg-secondary;
+    @apply text-white;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
-  body {
-    margin: 1.6cm;
+  html {
+    /* petty hack to make the html fit page */
+    /* TODO: fix this to be calculated somehow */
+    height: 593.5mm !important;
+  }
+  #__next {
+    padding: 2rem;
   }
 }
-
-.unselectable {
+. .unselectable {
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */

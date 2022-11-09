@@ -3,6 +3,7 @@ import resume from '@resume.json'
 import { extractUniqueKeys, sortSkills } from '@utils'
 import Image from 'next/image'
 import { SEO } from '@components'
+import { useEffect } from 'react'
 
 const pill = (key: string) => (
     <span key={key} className='bg-primary print:bg-primary text-secondary rounded-full px-3 py-1 text-xs font-semibold mr-2 mb-2'>
@@ -11,11 +12,11 @@ const pill = (key: string) => (
 )
 
 const Page: NextPage = () => {
-  return (
+    return (
     <>
         <SEO title='My Resume'/>
-        <main className='flex flex-col items-start min-h-full w-full bg-secondary print:bg-white text-white print:text-black p-5 md:p-14 space-y-3'>
-            <div className='flex flex-col items -center lg:flex-row items-center w-full'>
+        <main className='flex flex-col items-start min-h-auto print:h-auto w-full bg-secondary text-white p-5 md:p-14 space-y-3'>
+            <div className='flex flex-col lg:flex-row print:flex-row items-center w-full'>
                 <div className="flex flex-row gap-3 ">
                     <div className="relative rounded-full w-[10rem] h-[10rem] print:w-[5rem] print:h-[5rem]" title="me">
                         <Image className='rounded-full' src='/me.jpg' layout='fill'  objectFit="contain" alt='me'/>
@@ -27,7 +28,7 @@ const Page: NextPage = () => {
                         </div>
                     </a>
                 </div>
-                <div className='flex flex-row flex-wrap mt-5 lg:mt-0 lg:ml-auto print:max-w-[40%]'>
+                <div className='flex flex-row flex-wrap mt-5 lg:mt-0 lg:ml-auto print:ml-auto'>
                     {resume.basics.profiles.map((profile: {network: string, username: string, url: string }) => (
                         <a key={profile.network} href={profile.url} title={`${profile.network} ${profile.username}`} target='_blank' rel='noreferrer' className='flex flex-row items-center justify-center w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary text-secondary mr-2 mb-2'>
                             <Image src={`/${profile.network.toLowerCase()}.svg`} width={20} height={20} alt={profile.network}/>
@@ -35,7 +36,7 @@ const Page: NextPage = () => {
                     ))}
                 </div>
             </div>
-            <section id='_about' className='flex flex-col items-start justify-start w-full h-full'>
+            <section id='_about' className='flex flex-col items-start justify-start w-full sm:h-auto '>
                 <h1 className='text-2xl font-bold border-b-[0.3rem] border-primary p-3'>About me</h1>
                 <p className='text-base mt-2'>{resume.basics.summary}</p>
             </section>
@@ -88,7 +89,7 @@ const Page: NextPage = () => {
                     ))}
                 </div>
             </section>
-            <section id='_languages' className='flex flex-col items-start justify-start w-full h-fit'>
+            <section id='_languages' className='flex flex-col items-start justify-start w-full h-auto print:grow'>
                 <h1 className='text-2xl font-bold border-b-[0.3rem] border-primary p-3'>Languages</h1>
                 <div className='flex flex-row flex-wrap items-start justify-start w-full h-full'>
                     {resume.languages.map((language) => (

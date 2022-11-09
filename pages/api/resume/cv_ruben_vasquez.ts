@@ -4,17 +4,23 @@ import resume from "@/resume.json";
 import fs from "fs";
 import path from "path";
 
-const filePath = path.resolve(
-  ".",
-  `public/cv_${resume.basics.name.replace(" ", "_").toLowerCase()}.pdf`
-);
-const pdf = fs.readFileSync(filePath);
-
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Readable | any>
 ) {
-  res.status(200).setHeader("Content-Type", "application/pdf").send(pdf);
+  try {
+    const filePath = path.join(
+      process.cwd(),
+      "public",
+      `cv_${resume.basics.name.replace(" ", "_").toLowerCase()}.pdf`
+    );
+    const file = fs.createReadStream(filePath);
+    res.setHeader("Content-Type", "application/pdf");
+    res.setHeader("Content-Disposition", 'inline; filename="resume.pdf"');
+    res.status(200).send(file);
+  } catch (error: any) {
+    res.status(500).json({ error });
+  }
 }
 
 export const config = {
