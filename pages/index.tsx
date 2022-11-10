@@ -2,7 +2,7 @@ import type { ReactElement } from 'react'
 import type { NextPageWithLayout } from './_app'
 
 import resume from '@resume.json'
-import { SEO, Hero, About, Skills, Footer, Layout } from '@components'
+import { SEO, Hero, About, Footer, Layout, Idea } from '@components'
 
 const Page: NextPageWithLayout = () => {
     return (
@@ -10,7 +10,7 @@ const Page: NextPageWithLayout = () => {
             <SEO title={resume.basics.name} />
             <Hero />
             <About />
-            <Skills />
+            <Idea />
             <Footer />
         </>
     )

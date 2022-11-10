@@ -130,3 +130,4 @@
 -   [ ] Add Projects
 -   [ ] Add cool skills section?
 -   [ ] Add links page
+-   [ ] Create pretty script for modified files only

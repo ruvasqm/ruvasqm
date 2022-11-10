@@ -1,7 +1,7 @@
 import { ReactElement, useState } from 'react'
 import { Navbar, Icon } from '@components'
 
-export default function Layout({ children }: { children: ReactElement }) {
+const Layout = ({ children }: { children: ReactElement }) => {
     const [showNav, setShowNav] = useState(false)
     return (
         <>
@@ -15,3 +15,5 @@ export default function Layout({ children }: { children: ReactElement }) {
         </>
     )
 }
+
+export default Layout

@@ -36,11 +36,15 @@ export default function handler(req) {
                         alignItems: 'flex-end',
                     }}
                 >
+                    {/* TODO: adjust when og/satori support next/image */}
+                    {/* eslint-disable  @next/next/no-img-element */}
                     <img
                         src='https://ruvasqm.tech/logo.svg'
                         width={width / 1.5}
                         height={height / 1.5}
+                        alt='logo'
                     />
+                    {/* eslint-enable  @next/next/no-img-element */}
                 </div>
             ),
             {
