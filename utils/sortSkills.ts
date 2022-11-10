@@ -1,3 +1,3 @@
 export default (a: string, b: string) => {
-  return a > b ? 1 : -1;
-};
+    return a > b ? 1 : -1
+}

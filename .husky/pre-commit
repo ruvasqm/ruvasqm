@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+yarn lint . $(git diff --name-only --staged | grep -E '\.(js|jsx|ts|tsx)$')
+# yarn test
+./scripts/print-pdf-cv.sh
+git add ./public/cv_ruben_vasquez.pdf

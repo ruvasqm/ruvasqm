@@ -8,9 +8,9 @@
 
 ## I'm a Developer and a Gamer!!
 
-- 🌱 I’m currently learning Rust and Vim!
-- 🥅 Current Goal: Contribute more to Open Source projects
-- ⚡ Fun fact: I'm a big pre-60s music fan🎙️
+-   🌱 I’m currently learning Rust and Vim!
+-   🥅 Current Goal: Contribute more to Open Source projects
+-   ⚡ Fun fact: I'm a big pre-60s music fan🎙️
 
 ### Connect with me:
 
@@ -124,9 +124,9 @@
 
 ## TODO
 
-- [ ] Transitions
-- [ ] Add scrollbar animations
-- [ ] Add parallax to About
-- [ ] Add Projects
-- [ ] Add cool skills section?
-- [ ] Add links page
+-   [ ] Transitions
+-   [ ] Add scrollbar animations
+-   [ ] Add parallax to About
+-   [ ] Add Projects
+-   [ ] Add cool skills section?
+-   [ ] Add links page
