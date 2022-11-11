@@ -1,2 +1,3 @@
 export { default as extractUniqueKeys } from './extractUniqueKeys'
 export { default as sortSkills } from './sortSkills'
+export { default as debounce } from './debounce'

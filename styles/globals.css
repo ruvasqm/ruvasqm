@@ -100,26 +100,30 @@ body,
     );
 }
 
+html {
+    overflow: overlay;
+}
 html::-webkit-scrollbar {
     width: 10px;
-    position: absolute;
 }
 
 html::-webkit-scrollbar-track {
-    @apply bg-secondary;
+    background-color: transparent;
 }
-
+html::-webkit-scrollbar-track-piece {
+    display: none;
+}
 html::-webkit-scrollbar-thumb {
     @apply bg-primary;
     border-radius: 10px;
 }
 
 html::-webkit-scrollbar-thumb:hover {
-    background: rgb(100, 100, 100);
+    background: white;
     border-radius: 10px;
 }
 
 html::-webkit-scrollbar-thumb:active {
-    background: rgb(68, 68, 68);
+    background: white;
     border-radius: 10px;
 }
