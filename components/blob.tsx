@@ -4,7 +4,7 @@ import { ReactElement } from 'react'
 
 const Blob = ({ children }: { children: ReactElement }) => {
     return (
-        <div className='square blob'>
+        <div className='square blob w-50 h-50 md:h-96 md:w-96'>
             <span></span>
             <span></span>
             <span></span>
@@ -21,8 +21,6 @@ const Blob = ({ children }: { children: ReactElement }) => {
                     .square {
                         position: relative;
                         margin: 0 10px;
-                        width: 400px;
-                        height: 400px;
                         display: flex;
                         justify-content: center;
                         align-items: center;

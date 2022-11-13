@@ -143,7 +143,7 @@
 
 ---
 
-## TODO
+## TODO : Personal page
 
 -   [ ] Transitions
 -   [ ] Add scrollbar animations
@@ -152,3 +152,4 @@
 -   [ ] Add cool skills section?
 -   [ ] Add links page
 -   [ ] Create pretty script for modified files only
+-   [ ] Fix resume page for mobile

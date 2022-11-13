@@ -3,7 +3,7 @@ import { Blob } from '@components'
 const Idea = () => (
     <section
         id='idea'
-        className='flex flex-col items-center justify-center md:justify-center bg-secondary text-white w-full p-10 unselectable font-medium'
+        className='flex flex-col items-center justify-center md:justify-center bg-secondary text-white w-full md:h-3/4 p-10 unselectable font-medium'
     >
         <Blob>
             <h3 className='text-secondary text-3xl'>

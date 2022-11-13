@@ -5,10 +5,10 @@ import resume from '@resume.json'
 const Footer = () => (
     <footer className='flex flex-col items-center justify-center md:justify-between space-y-5 md:space-y-20 h-full md:h-auto w-full p-5 md:pt-16 bg-secondary text-white font-bold unselectable'>
         <div className='flex flex-col-reverse md:flex-row justify-center md:justify-around items-center w-full basis-11/12 space-y-12 md:space-y-0'>
-            <div className='flex flex-col items-center md:items-start max-w-md mt-5 md:mt-0'>
-                <SectionTitle title='Contact me!' />
+            <div className='flex flex-col items-center md:items-start mt-5 md:mt-0'>
+                <SectionTitle title="What's your idea?" />
                 <div className='h-5' />
-                <p className='text-lg '>
+                <p className='text-2xl md:text-3xl max-w-lg'>
                     I&apos;d be more than happy to learn about your project and
                     help you get the best results possible.
                 </p>
