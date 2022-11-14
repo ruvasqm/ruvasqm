@@ -99,7 +99,10 @@
             "startDate": "2015-01-01",
             "endDate": "Present",
             "summary": "I've worked as a freelancer for several companies, developing web applications and REST APIs using Javascript, Typescript, Python, .NET and Java.",
-            "highlights": ["Project management", "Budget management"]
+            "highlights": [
+                "Project management",
+                "Budget management"
+            ]
         },
         {
             "name": "Tutenlabs",
@@ -116,7 +119,8 @@
                 "Unit Testing",
                 "Agile development",
                 "Scrum",
-                "Gitflow"
+                "Gitflow",
+                "TDD"
             ]
         }
     ],
@@ -128,7 +132,10 @@
             "startDate": "2022-10-12",
             "endDate": "",
             "summary": "Especialmente uno is a non-profit organization that helps young people with ASD (Autism Spectrum Disorder) and their families. I'm a volunteer there, helping with the social media and the website.",
-            "highlights": ["Social media", "Website"]
+            "highlights": [
+                "Social media",
+                "Website"
+            ]
         }
     ],
     "education": [
@@ -140,7 +147,9 @@
             "startDate": "2010-09-07",
             "endDate": "Unfinished",
             "score": "3.0",
-            "courses": [""]
+            "courses": [
+                ""
+            ]
         }
     ],
     "awards": [
@@ -202,13 +211,23 @@
             "name": "Spring Boot",
             "type": "Framework",
             "level": "Novice",
-            "keywords": ["Liquidbase", "Kafka", "Postgres", "Redis"]
+            "keywords": [
+                "Liquidbase",
+                "Kafka",
+                "Postgres",
+                "Redis"
+            ]
         },
         {
             "name": "Flask",
             "type": "Framework",
             "level": "Novice",
-            "keywords": ["SQLAlchemy", "Jinja", "Celery", "Redis"]
+            "keywords": [
+                "SQLAlchemy",
+                "Jinja",
+                "Celery",
+                "Redis"
+            ]
         },
         {
             "name": "Rust",
@@ -226,7 +245,10 @@
             "name": "Javascript",
             "type": "Language",
             "level": "Expert",
-            "keywords": ["Typescript", "ESNext"]
+            "keywords": [
+                "Typescript",
+                "ESNext"
+            ]
         },
         {
             "name": "C++",
@@ -238,7 +260,10 @@
             "name": "SQL",
             "type": "Language",
             "level": "Intermediate",
-            "keywords": ["Postgres", "MySQL"]
+            "keywords": [
+                "Postgres",
+                "MySQL"
+            ]
         },
         {
             "name": "VS Code",
@@ -328,7 +353,10 @@
     "interests": [
         {
             "name": "Video Games",
-            "keywords": ["League of Legends", "Valorant"]
+            "keywords": [
+                "League of Legends",
+                "Valorant"
+            ]
         },
         {
             "name": "Music",
@@ -340,12 +368,18 @@
                 "EDM",
                 "Drum and Bass",
                 "Salsa",
-                "Bachata"
+                "Bachata",
+                "Latin"
             ]
         },
         {
             "name": "Bodybuilding",
-            "keywords": ["Calisthenics", "Yoga", "Weightlifting", "Swimming"]
+            "keywords": [
+                "Calisthenics",
+                "Yoga",
+                "Weightlifting",
+                "Swimming"
+            ]
         }
     ],
     "references": [

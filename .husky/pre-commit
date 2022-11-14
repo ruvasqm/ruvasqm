@@ -4,6 +4,7 @@
 declare -a modified_files=$(git diff --name-only --staged | grep -E '\.(js|jsx|ts|tsx)$')
 if [ -n "$modified_files" ] ; then
     yarn prettier --write $modified_files
+    git add .
     yarn lint . $modified_files
     # yarn test
 

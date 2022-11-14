@@ -3,10 +3,20 @@ import Image from 'next/image'
 import resume from '@resume.json'
 
 const Footer = () => (
-    <footer className='flex flex-col items-center justify-center md:justify-between space-y-5 md:space-y-20 h-full md:h-auto w-full p-5 md:pt-16 bg-secondary text-white font-bold unselectable'>
-        <div className='flex flex-col-reverse md:flex-row justify-center md:justify-around items-center w-full basis-11/12 space-y-12 md:space-y-0'>
+    <footer className='flex flex-col items-center justify-center md:justify-around space-y-5 md:space-y-20 min-h-full md:h-auto w-full p-5 md:pt-16 bg-secondary text-white font-bold unselectable'>
+        <div className='flex flex-col-reverse md:flex-row justify-center md:justify-around items-center w-full basis-11/12 space-y-10 md:space-y-0'>
             <div className='flex flex-col items-center md:items-start mt-5 md:mt-0'>
-                <SectionTitle title="What's your idea?" />
+                <SectionTitle
+                    title={
+                        <>
+                            What&apos;s your{' '}
+                            <span className='text-primary font-black'>
+                                idea
+                            </span>
+                            ?
+                        </>
+                    }
+                />
                 <div className='h-5' />
                 <p className='text-2xl md:text-3xl max-w-lg'>
                     I&apos;d be more than happy to learn about your project and
@@ -14,7 +24,7 @@ const Footer = () => (
                 </p>
             </div>
             <div
-                className='relative rounded-full w-[20rem] h-[20rem]'
+                className='relative rounded-full w-[15rem] h-[15rem] md:w-[20rem] md:h-[20rem]'
                 title='me'
             >
                 <Image
@@ -26,7 +36,7 @@ const Footer = () => (
                 />
             </div>
         </div>
-        <div className='flex flex-row items-center justify-center gap-6'>
+        <div className='flex flex-row items-center justify-center gap-3'>
             {resume.basics.profiles.map(
                 (profile: {
                     network: string
@@ -38,6 +48,7 @@ const Footer = () => (
                         name={profile.network}
                         handle={profile.username}
                         href={profile.url}
+                        size={35}
                         icon={`/${profile.network.toLowerCase()}.svg`}
                     />
                 )

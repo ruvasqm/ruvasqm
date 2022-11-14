@@ -1,4 +1,4 @@
-### Hi there, I'm Rubén - [@ruvasqm][website] 👋
+### Hi there, I'm Rubén - [@ruvasqm][website] &emsp; [![wakatime](https://wakatime.com/badge/user/d89483f8-cca1-4552-959c-d08ef54a185b/project/fb446715-349b-4180-9281-9c08d0d16408.svg)](https://wakatime.com/badge/user/d89483f8-cca1-4552-959c-d08ef54a185b/project/fb446715-349b-4180-9281-9c08d0d16408) 👋
 
 &emsp;
 
