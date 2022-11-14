@@ -1,12 +1,12 @@
 import type { ReactElement } from 'react'
 import type { NextPageWithLayout } from './_app'
 import type { wakaTimeStats } from '@components/time'
-import { GetServerSideProps, InferGetServerSidePropsType } from 'next'
+import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import resume from '@resume.json'
 import { SEO, Hero, About, Footer, Layout, Idea, Time } from '@components'
 
 const Page: NextPageWithLayout<
-    InferGetServerSidePropsType<typeof getServerSideProps>
+    InferGetStaticPropsType<typeof getStaticProps>
 > = ({ languages, activity }) => {
     return (
         <>
@@ -26,7 +26,7 @@ Page.getLayout = function getLayout(page: ReactElement) {
 
 export default Page
 
-export const getServerSideProps: GetServerSideProps<{
+export const getStaticProps: GetStaticProps<{
     languages: wakaTimeStats['languages']
     activity: wakaTimeStats['activity']
 }> = async () => {
@@ -44,5 +44,5 @@ export const getServerSideProps: GetServerSideProps<{
         .json()
         .then((data) => data.data)
     // Pass data to the page via props
-    return { props: { languages, activity } }
+    return { props: { languages, activity }, revalidate: 60 * 60 * 24 }
 }
