@@ -37,7 +37,7 @@ function Navbar({ className }: { className?: string }) {
                     handle=''
                     icon='/pdf.svg'
                     size={30}
-                    link='/api/resume?format=pdf'
+                    href='/api/resume/cv_ruben_vasquez'
                 />
                 <Icon
                     className={`${openCV ? '' : 'hidden'}`}
@@ -45,7 +45,7 @@ function Navbar({ className }: { className?: string }) {
                     handle=''
                     icon='/json.svg'
                     size={35}
-                    link='/api/resume?format=json'
+                    href='/api/resume?json_cv_ruben_vasquez'
                 />
             </div>
         </nav>

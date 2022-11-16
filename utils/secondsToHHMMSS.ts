@@ -3,10 +3,14 @@ const secondsToHms = (d: number) => {
     const m = Math.floor((d % 3600) / 60)
     const s = Math.floor((d % 3600) % 60)
 
-    const hDisplay = h > 0 ? h + 'H : ' : ''
-    const mDisplay = m > 0 ? m + 'm : ' : ''
-    const sDisplay = s > 0 ? s + 's' : ''
-    return hDisplay + mDisplay + sDisplay
+    const hDisplay = h + 'H : '
+    const mDisplay = m + 'm : '
+    const sDisplay = s + 's'
+    return (
+        hDisplay.padStart(6, '0') +
+        mDisplay.padStart(6, '0') +
+        sDisplay.padStart(3, '0')
+    )
 }
 
 export default secondsToHms

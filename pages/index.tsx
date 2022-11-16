@@ -2,8 +2,13 @@ import type { ReactElement } from 'react'
 import type { NextPageWithLayout } from './_app'
 import type { wakaTimeStats } from '@components/time'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
+import dynamic from 'next/dynamic'
 import resume from '@resume.json'
 import { SEO, Hero, About, Footer, Layout, Idea, Time } from '@components'
+
+const End = dynamic(() => import('../components/end'), {
+    ssr: false,
+})
 
 const Page: NextPageWithLayout<
     InferGetStaticPropsType<typeof getStaticProps>
@@ -15,6 +20,7 @@ const Page: NextPageWithLayout<
             <About />
             <Idea />
             <Time languages={languages} activity={activity} />
+            <End />
             <Footer />
         </>
     )
@@ -44,5 +50,5 @@ export const getStaticProps: GetStaticProps<{
         .json()
         .then((data) => data.data)
     // Pass data to the page via props
-    return { props: { languages, activity }, revalidate: 60 * 60 * 24 }
+    return { props: { languages, activity }, revalidate: 60 * 60 * 24 } // 24 hours
 }

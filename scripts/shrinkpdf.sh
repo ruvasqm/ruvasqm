@@ -42,7 +42,7 @@ shrink ()
 
 	# Allow unquoted variables; we want word splitting for $gray_params.
 	# shellcheck disable=SC2086
-	gs					\
+	gss					\
 	  -q -dNOPAUSE -dBATCH -dSAFER		\
 	  -sDEVICE=pdfwrite			\
 	  -dCompatibilityLevel="$4"		\

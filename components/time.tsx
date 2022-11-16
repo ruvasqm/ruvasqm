@@ -34,18 +34,19 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
     return (
         <section
             id='time'
-            className='flex flex-col-reverse md:flex-row items-start justify-start md:justify-center bg-secondary text-white w-full md:h-3/4 p-10 unselectable font-bold'
+            className='flex flex-col-reverse lg:flex-row items-start justify-start lg:justify-center bg-secondary text-white w-full lg:h-3/4 p-10 unselectable font-bold'
         >
-            <div className='flex flex-col w-full md:p-5 h-[30vh] md:w-1/2 items-center justify-center md:h-full'>
-                <p className='text-lg md:text-3xl unselectable'>
+            <div className='flex flex-col w-full lg:p-5 h-[30vh] lg:w-1/2 items-center justify-center lg:h-full'>
+                <p className='text-lg lg:text-3xl unselectable'>
                     We dedicate ourselves to them,
                     <br />
-                    give them our time and energy,
+                    give them <span className='text-primary'>our time</span> and
+                    energy,
                     <br />
                     and hope that they will be worth it.
                 </p>
             </div>
-            <div className='flex flex-col md:w-1/2 items-start md:items-end md:h-full md:p-5'>
+            <div className='flex flex-col lg:w-1/2 items-start lg:items-end lg:h-full lg:p-5'>
                 <SectionTitle
                     title={
                         <a
@@ -64,7 +65,7 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                     }
                 />
 
-                <h3 className='text-4xl md:text-7xl text-primary font-neutraface font-black'>
+                <h3 className='text-4xl lg:text-7xl text-primary font-neutraface font-black'>
                     {secondsToHHMMSS(
                         activity.reduceRight(
                             (total, day) =>
@@ -73,18 +74,18 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                         )
                     )}
                 </h3>
-                <h4 className='text-xl md:text-3xl text-primary font-neutraface font-black'>
+                <h4 className='text-xl lg:text-3xl text-primary font-neutraface font-black'>
                     This week&apos;s coding time
                 </h4>
                 <Chart
                     className='my-5 w-full h-10 flex flex-row'
                     items={languages}
                 />
-                <div className='flex flex-row flex-wrap gap-3 md:gap-5 items-center md:justify-end'>
+                <div className='flex flex-row flex-wrap gap-3 lg:gap-5 items-center lg:justify-end'>
                     {languages.map((language) => (
                         <div
                             key={'li' + language.name}
-                            className='text-medium md:text-2xl'
+                            className='text-medium lg:text-2xl'
                             style={{ color: language.color }}
                         >
                             {language.name}

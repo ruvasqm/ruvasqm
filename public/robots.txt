@@ -1,0 +1,8 @@
+# Allow all crawlers
+user-agent: *
+allow: /
+
+user-agent: *
+disallow: /api/
+
+sitemap: https://ruvasqm.tech/sitemap-file.xml

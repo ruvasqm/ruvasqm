@@ -28,7 +28,7 @@ const SEO = ({ title = resume.basics.name }: { title?: string }) => (
         {/*<!-- HTML Meta Tags -->*/}
         <title>{title}</title>
         <meta name='description' content={resume.basics.summary} />
-
+        <meta httpEquiv='content-language' content='en-us' />
         {/*<!-- Facebook Meta Tags -->*/}
         <meta property='og:url' content={resume.basics.url} />
         <meta property='og:type' content='website' />

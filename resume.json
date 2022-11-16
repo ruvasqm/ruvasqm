@@ -99,10 +99,7 @@
             "startDate": "2015-01-01",
             "endDate": "Present",
             "summary": "I've worked as a freelancer for several companies, developing web applications and REST APIs using Javascript, Typescript, Python, .NET and Java.",
-            "highlights": [
-                "Project management",
-                "Budget management"
-            ]
+            "highlights": ["Project management", "Budget management"]
         },
         {
             "name": "Tutenlabs",
@@ -132,10 +129,7 @@
             "startDate": "2022-10-12",
             "endDate": "",
             "summary": "Especialmente uno is a non-profit organization that helps young people with ASD (Autism Spectrum Disorder) and their families. I'm a volunteer there, helping with the social media and the website.",
-            "highlights": [
-                "Social media",
-                "Website"
-            ]
+            "highlights": ["Social media", "Website"]
         }
     ],
     "education": [
@@ -147,9 +141,7 @@
             "startDate": "2010-09-07",
             "endDate": "Unfinished",
             "score": "3.0",
-            "courses": [
-                ""
-            ]
+            "courses": [""]
         }
     ],
     "awards": [
@@ -189,7 +181,13 @@
                 "Gatsby",
                 "Styled Components",
                 "Material UI",
-                "Apollo"
+                "Apollo",
+                "Three.js",
+                "React Router",
+                "React Query",
+                "react-intl",
+                "SSR",
+                "Suspense"
             ]
         },
         {
@@ -204,7 +202,10 @@
                 "Jest",
                 "Winston",
                 "Prisma",
-                "GraphQL"
+                "GraphQL",
+                "Express",
+                "Restify",
+                "Fastify"
             ]
         },
         {
@@ -215,55 +216,46 @@
                 "Liquidbase",
                 "Kafka",
                 "Postgres",
-                "Redis"
+                "Redis",
+                "REST",
+                "API"
             ]
         },
         {
             "name": "Flask",
             "type": "Framework",
             "level": "Novice",
-            "keywords": [
-                "SQLAlchemy",
-                "Jinja",
-                "Celery",
-                "Redis"
-            ]
+            "keywords": ["SQLAlchemy", "Jinja", "Redis", "Gunicorn", "Waitress"]
         },
         {
             "name": "Rust",
             "type": "Language",
             "level": "Novice",
-            "keywords": []
+            "keywords": ["Rocket"]
         },
         {
             "name": "Python",
             "type": "Language",
             "level": "Intermediate",
-            "keywords": []
+            "keywords": ["Pandas", "Numpy", "OpenGL", "Pygame"]
         },
         {
             "name": "Javascript",
             "type": "Language",
             "level": "Expert",
-            "keywords": [
-                "Typescript",
-                "ESNext"
-            ]
+            "keywords": ["Typescript", "ESNext", "Webpack", "Babel"]
         },
         {
             "name": "C++",
             "type": "Language",
             "level": "Intermediate",
-            "keywords": []
+            "keywords": ["IOT", "Arduino", "Embedded"]
         },
         {
             "name": "SQL",
             "type": "Language",
             "level": "Intermediate",
-            "keywords": [
-                "Postgres",
-                "MySQL"
-            ]
+            "keywords": ["Postgres", "MySQL"]
         },
         {
             "name": "VS Code",
@@ -275,13 +267,19 @@
             "name": "Git",
             "type": "Tooling",
             "level": "Expert",
-            "keywords": []
+            "keywords": [
+                "Gitflow",
+                "Github",
+                "Gitlab",
+                "Bitbucket",
+                "Git hooks"
+            ]
         },
         {
             "name": "Docker",
             "type": "Infrastructure",
             "level": "Intermediate",
-            "keywords": []
+            "keywords": ["docker-compose", "containerization"]
         },
         {
             "name": "Kubernetes",
@@ -293,13 +291,13 @@
             "name": "AWS",
             "type": "Infrastructure",
             "level": "Novice",
-            "keywords": []
+            "keywords": ["EC2", "S3", "BOTO3", "Cloudfront"]
         },
         {
             "name": "Linux",
             "type": "Tooling",
             "level": "Intermediate",
-            "keywords": []
+            "keywords": ["Bash", "Zsh", "Ubuntu", "Vim"]
         },
         {
             "name": "Windows",
@@ -311,13 +309,13 @@
             "name": "Jira",
             "type": "Tooling",
             "level": "Expert",
-            "keywords": []
+            "keywords": ["Scrum", "Kanban", "Agile", "Burnout", "Sprint"]
         },
         {
             "name": "Bash",
             "type": "Tooling",
             "level": "Intermediate",
-            "keywords": []
+            "keywords": ["scripting", "automation"]
         },
         {
             "name": "Vite",
@@ -335,7 +333,7 @@
             "name": "Jest",
             "type": "Framework",
             "level": "Intermediate",
-            "keywords": []
+            "keywords": ["Unit Testing", "Integration Testing", "E2E Testing"]
         }
     ],
     "languages": [
@@ -353,10 +351,7 @@
     "interests": [
         {
             "name": "Video Games",
-            "keywords": [
-                "League of Legends",
-                "Valorant"
-            ]
+            "keywords": ["League of Legends", "Valorant"]
         },
         {
             "name": "Music",
@@ -374,12 +369,7 @@
         },
         {
             "name": "Bodybuilding",
-            "keywords": [
-                "Calisthenics",
-                "Yoga",
-                "Weightlifting",
-                "Swimming"
-            ]
+            "keywords": ["Calisthenics", "Yoga", "Weightlifting", "Swimming"]
         }
     ],
     "references": [

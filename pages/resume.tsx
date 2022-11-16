@@ -17,10 +17,10 @@ const pill = (key: string) => (
 const Page: NextPage = () => {
     return (
         <>
-            <SEO title='My Resume' />
-            <main className='flex flex-col items-start min-h-auto print:h-auto w-full bg-secondary text-white p-5 md:p-14 space-y-3 print:block'>
+            <SEO title='Ruben Vasquez' />
+            <main className='flex flex-col items-start min-h-auto print:h-auto w-full bg-secondary text-white p-5 lg:p-14 space-y-3 print:block'>
                 <div className='flex flex-col lg:flex-row print:flex-row items-center w-full'>
-                    <div className='flex flex-row gap-3 '>
+                    <div className='flex flex-row items-center gap-3 '>
                         <div
                             className='relative rounded-full w-[10rem] h-[10rem] print:w-[5rem] print:h-[5rem]'
                             title='me'
@@ -34,8 +34,8 @@ const Page: NextPage = () => {
                             />
                         </div>
                         <Link href='/' className='no-underline'>
-                            <div className='flex flex-col w-fit items-end border-b-[0.3rem] border-primary p-3'>
-                                <h1 className='text-2xl md:text-3xl font-bold'>
+                            <div className='flex flex-col w-fit h-fit items-end border-b-[0.3rem] border-primary p-3'>
+                                <h1 className='text-2xl lg:text-3xl font-bold'>
                                     {resume.basics.name}
                                 </h1>
                                 <h2 className='text-base'>
@@ -57,7 +57,7 @@ const Page: NextPage = () => {
                                     title={`${profile.network} ${profile.username}`}
                                     target='_blank'
                                     rel='noreferrer'
-                                    className='flex flex-row items-center justify-center w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary text-secondary mr-2 mb-2'
+                                    className='flex flex-row items-center justify-center w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-primary text-secondary mr-2 mb-2'
                                 >
                                     <Image
                                         src={`/${profile.network.toLowerCase()}.svg`}
@@ -91,7 +91,7 @@ const Page: NextPage = () => {
                             (type: string) => (
                                 <div
                                     key={type}
-                                    className='flex flex-col items-start justify-start grow basis-1/3 md:p-3'
+                                    className='flex flex-col items-start justify-start grow basis-1/3 lg:p-3'
                                 >
                                     <h2 className='text-xl font-bold'>
                                         {type}

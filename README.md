@@ -151,5 +151,6 @@
 -   [ ] Add Projects
 -   [ ] Add cool skills section?
 -   [ ] Add links page
--   [ ] Create pretty script for modified files only
 -   [ ] Fix resume page for mobile
+-   [ ] Add hover/click animation to word cloud
+-   [ ] Add 404 and error pages
