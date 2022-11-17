@@ -1,14 +1,10 @@
 import type { ReactElement } from 'react'
 import type { NextPageWithLayout } from './_app'
-import type { wakaTimeStats } from '@components/time'
+import type { wakaTimeStats, language } from '@components/time'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
-import dynamic from 'next/dynamic'
 import resume from '@resume.json'
-import { SEO, Hero, About, Footer, Layout, Idea, Time } from '@components'
-
-const End = dynamic(() => import('../components/end'), {
-    ssr: false,
-})
+import { SEO, Hero, About, Footer, Layout, Idea, Time, End } from '@components'
+import { adjustContrast } from '@utils'
 
 const Page: NextPageWithLayout<
     InferGetStaticPropsType<typeof getStaticProps>
@@ -49,6 +45,15 @@ export const getStaticProps: GetStaticProps<{
     const languages: wakaTimeStats['languages'] = await resLanguages
         .json()
         .then((data) => data.data)
+        .then((_languages) =>
+            _languages.map((lang: language) => {
+                return {
+                    ...lang,
+                    color: adjustContrast(lang.color, '#323330', 3),
+                }
+                // TODO: define color contrast in theme
+            })
+        )
     // Pass data to the page via props
     return { props: { languages, activity }, revalidate: 60 * 60 * 24 } // 24 hours
 }

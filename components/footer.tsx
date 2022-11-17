@@ -33,7 +33,6 @@ const Footer = () => (
                     layout='fill'
                     objectFit='contain'
                     alt='me'
-                    priority={true}
                 />
             </div>
         </div>

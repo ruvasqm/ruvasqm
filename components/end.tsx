@@ -1,5 +1,7 @@
 import resume from '@resume.json'
 import { shuffle } from '@utils'
+import React from 'react'
+import { generateRandomColor } from '@utils'
 
 const highlights = resume.work.flatMap((work) => work.highlights)
 const keywords = resume.skills.flatMap((skill) => skill.keywords)
@@ -20,31 +22,7 @@ const generateTransform = (orbitCoords: string) => {
          to   { opacity:1; transform: rotate(360deg) translate3d(${orbitCoords}) rotate(-360deg); }`
 }
 const orbittingTerms = (() => {
-    const colors = [
-        '#f6e58d',
-        '#f9ca24',
-        '#ffbe76',
-        '#f0932b',
-        '#ff7979',
-        '#eb4d4b',
-        '#badc58',
-        '#6ab04c',
-        '#dff9fb',
-        '#c7ecee',
-        '#7ed6df',
-        '#22a6b3',
-        '#e056fd',
-        '#be2edd',
-        '#686de0',
-        '#4834d4',
-        '#30336b',
-        '#130f40',
-        '#95afc0',
-        '#535c68',
-    ]
-    const term_color = shuffled.map(
-        (term, i) => colors[Math.floor(Math.random() * colors.length)]
-    )
+    const term_color = shuffled.map((term) => generateRandomColor())
     const phi = (1 + Math.sqrt(5)) / 2
     const xCoord = (theta: number) =>
         10 + Math.floor(15 * phi * theta * Math.cos(theta))
@@ -74,7 +52,9 @@ const orbittingTerms = (() => {
     })()
 
     return shuffled.map((term, i) => (
+        // TODO: figure out a way to avoid this suppressHydrationWarning hack for dev
         <span
+            suppressHydrationWarning={true}
             id={'w' + term.replace(/\s|\./, '_')}
             key={'w' + term.replace(/\s|\./, '_')}
             className='text-2xl lg:text-4xl scaler'
@@ -99,13 +79,13 @@ const orbittingTerms = (() => {
     ))
 })()
 
-const End = () => {
+const End: React.FunctionComponent = () => {
     return (
         <section
             id='end'
             className='relative flex flex-col lg:flex-row items-center justify-end bg-secondary text-white w-full h-full lg:h-3/4 p-10 unselectable font-medium'
         >
-            <div className='absolute flex items-center justify-center w-full h-full lg:left-0 lg:w-1/2 overflow-hidden'>
+            <div className='absolute flex items-center justify-center w-full h-full lg:left-0 lg:w-1/2 overflow-hidden sm:overflow-visible'>
                 {orbittingTerms}
             </div>
             <div className='flex items-center justify-center lg:p-10'>

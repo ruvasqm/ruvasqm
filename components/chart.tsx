@@ -14,7 +14,7 @@ const chart: FunctionComponent<{ className: string; items: language[] }> = ({
                         width: item.percent + '%',
                         background: item.color,
                         height: '100%',
-                        display: 'inline-block',
+                        display: 'block',
                     }}
                 />
             ))}

@@ -46,7 +46,7 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                     and hope that they will be worth it.
                 </p>
             </div>
-            <div className='flex flex-col lg:w-1/2 items-start lg:items-end lg:h-full lg:p-5'>
+            <div className='flex flex-col lg:w-1/2 items-start lg:items-end sm:h-full lg:p-5'>
                 <SectionTitle
                     title={
                         <a
@@ -78,10 +78,10 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                     This week&apos;s coding time
                 </h4>
                 <Chart
-                    className='my-5 w-full h-10 flex flex-row'
+                    className='my-5 w-full min-h-[2.5rem] flex flex-row'
                     items={languages}
                 />
-                <div className='flex flex-row flex-wrap gap-3 lg:gap-5 items-center lg:justify-end'>
+                <div className='flex flex-row flex-wrap gap-3 sm:gap-2 lg:gap-5 items-center lg:justify-end'>
                     {languages.map((language) => (
                         <div
                             key={'li' + language.name}
