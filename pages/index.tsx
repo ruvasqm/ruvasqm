@@ -16,7 +16,7 @@ const Page: NextPageWithLayout<
             <About />
             <Idea />
             <Time languages={languages} activity={activity} />
-            <End />
+            {/* <End /> */}
             <Footer />
         </>
     )

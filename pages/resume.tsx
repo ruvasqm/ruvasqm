@@ -18,11 +18,11 @@ const Page: NextPage = () => {
     return (
         <>
             <SEO title='Ruben Vasquez' />
-            <main className='flex flex-col items-start min-h-auto print:h-auto w-full bg-secondary text-white p-5 lg:p-14 space-y-3 print:block'>
+            <main className='flex flex-col items-start min-h-auto print:h-auto w-full bg-secondary text-white p-5 lg:pt-28 lg:px-64 print:p-14 space-y-3 print:block'>
                 <div className='flex flex-col lg:flex-row print:flex-row items-center w-full'>
                     <div className='flex flex-row items-center gap-3 '>
                         <div
-                            className='relative rounded-full w-[10rem] h-[10rem] print:w-[5rem] print:h-[5rem]'
+                            className='relative rounded-full w-[5rem] sm:w-[10rem] h-[5rem] sm:h-[10rem] print:w-[5rem] print:h-[5rem]'
                             title='me'
                         >
                             <Image
@@ -57,12 +57,12 @@ const Page: NextPage = () => {
                                     title={`${profile.network} ${profile.username}`}
                                     target='_blank'
                                     rel='noreferrer'
-                                    className='flex flex-row items-center justify-center w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-primary text-secondary mr-2 mb-2'
+                                    className='flex flex-row items-center justify-center w-6 sm:w-8 h-6 sm:h-8 rounded-full bg-primary text-secondary mr-2 mb-2 sm:mr-4 sm:mb-4'
                                 >
                                     <Image
                                         src={`/${profile.network.toLowerCase()}.svg`}
-                                        width={20}
-                                        height={20}
+                                        width={18}
+                                        height={18}
                                         alt={profile.network}
                                     />
                                 </a>
