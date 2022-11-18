@@ -13,7 +13,7 @@ const chart: FunctionComponent<{ className: string; items: language[] }> = ({
                     style={{
                         width: item.percent + '%',
                         background: item.color,
-                        height: '100%',
+                        minHeight: '100%',
                         display: 'block',
                     }}
                 />

@@ -7,7 +7,7 @@ const About = () => (
     >
         <SectionTitle title={'About me'} />
         <div className='h-5' />
-        <p className='lg:max-w-lg text-xl lg:text-3xl'>
+        <p className='lg:max-w-lg text-xl sm:text-2xl  lg:text-3xl'>
             I&apos;m a full stack developer with a passion for creating
             beautiful and functional websites. I have a strong background in web
             development and I&apos;m always looking to learn new technologies

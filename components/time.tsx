@@ -37,7 +37,7 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
             className='flex flex-col-reverse lg:flex-row items-start justify-start lg:justify-center bg-secondary text-white w-full lg:h-3/4 p-10 unselectable font-bold'
         >
             <div className='flex flex-col w-full lg:p-5 h-[30vh] lg:w-1/2 items-center justify-center lg:h-full'>
-                <p className='text-lg lg:text-3xl unselectable'>
+                <p className='text-lg sm:text-2xl lg:text-3xl unselectable'>
                     We dedicate ourselves to them,
                     <br />
                     give them <span className='text-primary'>our time</span> and
@@ -65,7 +65,7 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                     }
                 />
 
-                <h3 className='text-4xl lg:text-7xl text-primary font-neutraface font-black'>
+                <h3 className='text-4xl sm:text-7xl text-primary font-neutraface font-black'>
                     {secondsToHHMMSS(
                         activity.reduceRight(
                             (total, day) =>
@@ -74,7 +74,7 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                         )
                     )}
                 </h3>
-                <h4 className='text-xl lg:text-3xl text-primary font-neutraface font-black'>
+                <h4 className='text-xl sm:text-3xl text-primary font-neutraface font-black'>
                     This week&apos;s coding time
                 </h4>
                 <Chart

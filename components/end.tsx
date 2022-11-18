@@ -1,7 +1,6 @@
 import resume from '@resume.json'
-import { shuffle } from '@utils'
 import React from 'react'
-import { generateRandomColor } from '@utils'
+import { generateRandomColor, shuffle } from '@utils'
 
 const highlights = resume.work.flatMap((work) => work.highlights)
 const keywords = resume.skills.flatMap((skill) => skill.keywords)
@@ -83,13 +82,13 @@ const End: React.FunctionComponent = () => {
     return (
         <section
             id='end'
-            className='relative flex flex-col lg:flex-row items-center justify-end bg-secondary text-white w-full h-full lg:h-3/4 p-10 unselectable font-medium'
+            className='relative flex flex-col lg:flex-row items-center justify-end bg-secondary text-white w-full h-[110vh] sm:h-full lg:h-3/4 p-10 unselectable font-medium'
         >
             <div className='absolute flex items-center justify-center w-full h-full lg:left-0 lg:w-1/2 overflow-hidden sm:overflow-visible'>
                 {orbittingTerms}
             </div>
             <div className='flex items-center justify-center lg:p-10'>
-                <p className='text-lg lg:text-3xl text-center font-bold'>
+                <p className='text-lg sm:text-2xl lg:text-3xl text-center font-bold'>
                     And, we always keep moving <br />
                     <span className='text-primary font-black'>forward</span>
                 </p>
