@@ -121,7 +121,7 @@
   <summary>:zap: Recent GitHub Activity</summary>
   
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/ruvasqm/mspf-auth/pull/1) in [ruvasqm/mspf-auth](https://github.com/ruvasqm/mspf-auth)
+1. ❗️ Opened issue [#1367](https://github.com/dotnet/upgrade-assistant/issues/1367) in [dotnet/upgrade-assistant](https://github.com/dotnet/upgrade-assistant)
 <!--END_SECTION:activity-->
 
 </details>
