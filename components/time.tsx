@@ -51,7 +51,7 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                     title={
                         <a
                             className='flex flex-row items-center gap-3 p-3 w-fit no-underline'
-                            href='https://wakatime.com/'
+                            href='https://wakatime.com/@ruvasqm'
                         >
                             <Image
                                 className='text-white'

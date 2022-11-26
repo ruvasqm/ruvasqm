@@ -3,7 +3,7 @@ import Image from 'next/image'
 import resume from '@resume.json'
 
 const Footer = () => (
-    <footer className='flex flex-col items-center justify-center lg:justify-around space-y-5 lg:space-y-20 min-h-full lg:h-auto w-full p-5 lg:pt-16 bg-secondary text-white font-bold unselectable'>
+    <footer className='flex flex-col items-center justify-center lg:justify-around space-y-5  lg:space-y-20 min-h-full lg:h-auto w-full p-5 lg:pt-16 bg-secondary text-white font-bold unselectable'>
         <div className='flex flex-col-reverse lg:flex-row justify-center lg:justify-around items-center w-full basis-11/12 space-y-10 lg:space-y-0'>
             <div className='flex flex-col items-center lg:items-start mt-5 lg:mt-0'>
                 <SectionTitle
@@ -36,7 +36,7 @@ const Footer = () => (
                 />
             </div>
         </div>
-        <div className='flex flex-row items-center justify-center gap-3'>
+        <div className='flex flex-row items-center justify-center gap-3 md:m-36'>
             {resume.basics.profiles.map(
                 (profile: {
                     network: string
