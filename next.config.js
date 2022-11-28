@@ -8,7 +8,7 @@ const ContentSecurityPolicy = `
   style-src 'self' 'unsafe-inline';
   font-src 'self'; 
   media-src 'self';
-  connect-src 'self';
+  connect-src 'self' https://raw.githubusercontent.com;
   img-src http: https: data: blob: 'self';
 `
 

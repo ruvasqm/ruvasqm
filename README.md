@@ -118,7 +118,7 @@
 ---
 
 <details>
-  <summary>:zap: Recent GitHub Activity</summary>
+  <summary>⚡ Recent GitHub Activity</summary>
   
 <!--START_SECTION:activity-->
 1. ❗️ Opened issue [#1367](https://github.com/dotnet/upgrade-assistant/issues/1367) in [dotnet/upgrade-assistant](https://github.com/dotnet/upgrade-assistant)
@@ -127,7 +127,7 @@
 </details>
 
 <details>
-  <summary>:zap: GitHub Stats</summary>
+  <summary>⭐ GitHub Stats</summary>
 
 [![ruvasqm's GitHub stats](https://github-readme-stats.vercel.app/api?username=ruvasqm)](https://github.com/anuraghazra/github-readme-stats)
 

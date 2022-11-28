@@ -126,3 +126,16 @@ html::-webkit-scrollbar-thumb:active {
     background: rgb(70 71 68 / var(--tw-bg-opacity));
     border-radius: 10px;
 }
+div:has(> div.prose)::-webkit-scrollbar {
+    display: none;
+}
+div:has(> div.prose) {
+    perspective-origin: 50% 50%;
+}
+.prose {
+    transform: perspective(10px) translateZ(-20px) translateX(-100%)
+        translateY(-100%);
+}
+.prose:hover {
+    transform: perspective(10px) translateZ(0px) translateX(0%) translateY(0%);
+}

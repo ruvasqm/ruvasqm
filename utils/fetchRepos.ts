@@ -1,6 +1,6 @@
 import { z } from 'zod'
 import { languageColors } from '@utils'
-
+// TODO: remove nullables
 const RepoSchema = z.object({
     full_name: z.string(),
     homepage: z.nullable(z.string()),
