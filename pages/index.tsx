@@ -1,14 +1,26 @@
 import type { ReactElement } from 'react'
 import type { NextPageWithLayout } from './_app'
 import type { wakaTimeStats, language } from '@components/time'
+import type { Repo } from '@utils'
+import { fetchRepos } from '@utils'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import resume from '@resume.json'
-import { SEO, Hero, About, Footer, Layout, Idea, Time, End } from '@components'
+import {
+    SEO,
+    Hero,
+    About,
+    Footer,
+    Layout,
+    Idea,
+    Time,
+    Repos,
+    End,
+} from '@components'
 import { adjustContrast } from '@utils'
 
 const Page: NextPageWithLayout<
     InferGetStaticPropsType<typeof getStaticProps>
-> = ({ languages, activity }) => {
+> = ({ languages, activity, repos }) => {
     return (
         <>
             <SEO title={resume.basics.name} />
@@ -16,6 +28,7 @@ const Page: NextPageWithLayout<
             <About />
             <Idea />
             <Time languages={languages} activity={activity} />
+            <Repos repos={repos} />
             <End />
             <Footer />
         </>
@@ -31,6 +44,7 @@ export default Page
 export const getStaticProps: GetStaticProps<{
     languages: wakaTimeStats['languages']
     activity: wakaTimeStats['activity']
+    repos: Repo[]
 }> = async () => {
     // Fetch data from external API
     const resActivity = await fetch(
@@ -55,5 +69,6 @@ export const getStaticProps: GetStaticProps<{
             })
         )
     // Pass data to the page via props
-    return { props: { languages, activity }, revalidate: 60 * 60 * 24 } // 24 hours
+    const repos = await fetchRepos()
+    return { props: { languages, activity, repos }, revalidate: 60 * 60 * 24 } // 24 hours
 }

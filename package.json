@@ -17,7 +17,8 @@
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "sharp": "^0.31.2"
+    "sharp": "^0.31.2",
+    "zod": "^3.19.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
