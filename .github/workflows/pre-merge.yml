@@ -10,10 +10,16 @@
 name: Lint, generate PDF, and upload to GitHub when merging to main
 
 on:
-    push:
-        branches: ['main']
     pull_request:
-        # The branches below must be a subset of the branches above
+        types:
+          - labeled
+          - unlabeled
+          - synchronize
+          - opened
+          - edited
+          - ready_for_review
+          - reopened
+          - unlocked
         branches: ['main']
 
 jobs:
@@ -52,15 +58,14 @@ jobs:
                 GITHUB_API_TOKEN: ${{ secrets.API_TOKEN }}
               run: |
                   yarn install --frozen-lockfile
-                  echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN}"
                   echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > .env
                   yarn build
                   yarn start &
                   sleep 10
-            - name: Convert https://localhost:3000/resume to PDF
+            - name: Convert http://localhost:3000/resume to PDF
               uses: 'ruvasqm/puppeteer-pdf-action@master'
               with:
-                  url: https://localhost:3000/resume
+                  url: http://localhost:3000/resume
                   output-file-path: public/cv_ruben_vasquez.pdf
             - name: Commit PDF
               run: |
