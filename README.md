@@ -1,15 +1,15 @@
-### Hi there, I'm Rubén - [@ruvasqm][website] &emsp; [![wakatime](https://wakatime.com/badge/user/d89483f8-cca1-4552-959c-d08ef54a185b/project/fb446715-349b-4180-9281-9c08d0d16408.svg)](https://wakatime.com/badge/user/d89483f8-cca1-4552-959c-d08ef54a185b/project/fb446715-349b-4180-9281-9c08d0d16408) 👋
-
-&emsp;
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/rdvm69?style=social)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fruvasqmr&screen_name=rdvm69)&emsp;
 [![Discord](https://img.shields.io/discord/902167194706804796)](https://discord.gg/YjHcUgu6Mx)
+[![Twitter Follow](https://img.shields.io/twitter/follow/rdvm69?style=social)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fruvasqmr&screen_name=rdvm69)&emsp;
+[![wakatime](https://wakatime.com/badge/user/d89483f8-cca1-4552-959c-d08ef54a185b/project/fb446715-349b-4180-9281-9c08d0d16408.svg)](https://wakatime.com/badge/user/d89483f8-cca1-4552-959c-d08ef54a185b/project/fb446715-349b-4180-9281-9c08d0d16408)
 
-## I'm a Javascript Developer!!
+## Hi there, I'm Rubén, a Javascript developer - [@ruvasqm][website]👋
 
 -   🌱 I’m currently learning Rust and Vim!
 -   🥅 Current Goal: Contribute to new and exciting Open Source projects
 -   ⚡ Fun fact: I like really _old_ music🎙️
+
+<br />
+<br />
 
 ### Connect with me:
 
@@ -25,88 +25,88 @@
 
 <!-- MAIN LANGUAGES:START -->
 
-[<img align="left" alt="Visual Studio Code" title="Visual Studio Code" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />](https://code.visualstudio.com/)
+<a href="https://code.visualstudio.com/" ><img align="left" alt="Visual Studio Code" title="Visual Studio Code" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" /></a>
 
-[<img align="left" alt="Javascript" title="Javascript" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />](https://javascript.com)
+<a href="https://javascript.com" ><img align="left" alt="Javascript" title="Javascript" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></a>
 
-[<img align="left" alt="Typescript" title="Typescript" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />](https://www.typescriptlang.org/)
+<a href="https://www.typescriptlang.org/" ><img align="left" alt="Typescript" title="Typescript" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /></a>
 
-[<img align="left" alt="C++" title="C++" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />](https://isocpp.org/)
+<a href="https://isocpp.org/" ><img align="left" alt="C++" title="C++" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /></a>
 
-[<img align="left" alt="Python" title="Python" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />](https://www.python.org/)
+<a href="https://www.python.org/" ><img align="left" alt="Python" title="Python" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /></a>
 
-[<img align="left" alt="Java" title="Java" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />](https://www.java.com/)
+<a href="https://www.java.com/" ><img align="left" alt="Java" title="Java" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /></a>
 
-[<img align="left" alt="C#" title="C#" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />](https://docs.microsoft.com/en-us/dotnet/csharp/)
+<a href="https://docs.microsoft.com/en-us/dotnet/csharp/" ><img align="left" alt="C#" title="C#" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /></a>
 &emsp;
 
 <!-- MAIN LANGUAGES:END -->
 <!-- FRONTEND:START -->
 
-[<img align="left" alt="HTML5" title="HTML5" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />](https://www.w3schools.com/html)
+<a href="https://www.w3schools.com/html" ><img align="left" alt="HTML5" title="HTML5" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></a>
 
-[<img align="left" alt="CSS3" title="CSS3" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />](https://www.w3schools.com/css/)
+<a href="https://www.w3schools.com/css/" ><img align="left" alt="CSS3" title="CSS3" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></a>
 
-[<img align="left" alt="React" title="React" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />](https://reactjs.org/)
+<a href="https://reactjs.org/" ><img align="left" alt="React" title="React" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></a>
 
-[<img align="left" alt="Nextjs" title="Nextjs" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />](https://nextjs.org/)
+<a href="https://nextjs.org/" ><img align="left" alt="Nextjs" title="Nextjs" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /></a>
 
-[<img align="left" alt="Tailwind" title="Tailwind" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />](https://tailwindcss.com/)
+<a href="https://tailwindcss.com/" ><img align="left" alt="Tailwind" title="Tailwind" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" /></a>
 
-[<img align="left" alt="SASS" title="SASS" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />](https://sass-lang.com/)
+<a href="https://sass-lang.com/" ><img align="left" alt="SASS" title="SASS" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" /></a>
 
-[<img align="left" alt="Bootstrap" title="Bootstrap" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />](https://getbootstrap.com/)
+<a href="https://getbootstrap.com/" ><img align="left" alt="Bootstrap" title="Bootstrap" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" /></a>
 
-[<img align="left" alt="Redux" title="Redux" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />](https://redux.js.org/)
+<a href="https://redux.js.org/" ><img align="left" alt="Redux" title="Redux" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" /></a>
 
-[<img align="left" alt="Threejs" title="Threejs" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" />](https://threejs.org/)
+<a href="https://threejs.org/" ><img align="left" alt="Threejs" title="Threejs" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" /></a>
 &emsp;
 
 <!-- FRONTEND:END -->
 <!-- BACKEND:START -->
 
-[<img align="left" alt="Node" title="Node" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />](https://nodejs.org/)
-[<img align="left" alt="Spring" title="Spring" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />](https://spring.io/)
-[<img align="left" alt="Graphql" title="Graphql" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />](https://graphql.org/)
-[<img align="left" alt="Flask" title="Flask" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />](https://flask.palletsprojects.com/)
-[<img align="left" alt=".NET" title=".NET" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />](https://dotnet.microsoft.com/download)
-[<img align="left" alt="MySQL" title="MySQL" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />](https://www.mysql.com/)
-[<img align="left" alt="Postgres" title="Postgres" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />](https://www.postgresql.org/)
-[<img align="left" alt="MSSQL" title="MSSQL" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-[<img align="left" alt="Mongodb" title="Mongodb" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />](https://www.mongodb.com/)
-[<img align="left" alt="Jamstack" title="Jamstack" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jamstack/jamstack-original.svg" />](https://jamstack.org/)
-[<img align="left" alt="Heroku" title="Heroku" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />](https://www.heroku.com/)
+<a href="https://nodejs.org/" ><img align="left" alt="Node" title="Node" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></a>
+<a href="https://spring.io/" ><img align="left" alt="Spring" title="Spring" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" /></a>
+<a href="https://graphql.org/" ><img align="left" alt="Graphql" title="Graphql" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" /></a>
+<a href="https://flask.palletsprojects.com/" ><img align="left" alt="Flask" title="Flask" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" /></a>
+<a href="https://dotnet.microsoft.com/download" ><img align="left" alt=".NET" title=".NET" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" /></a>
+<a href="https://www.mysql.com/" ><img align="left" alt="MySQL" title="MySQL" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" /></a>
+<a href="https://www.postgresql.org/" ><img align="left" alt="Postgres" title="Postgres" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" /></a>
+<a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" ><img align="left" alt="MSSQL" title="MSSQL" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" /></a>
+<a href="https://www.mongodb.com/" ><img align="left" alt="Mongodb" title="Mongodb" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" /></a>
+<a href="https://jamstack.org/" ><img align="left" alt="Jamstack" title="Jamstack" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jamstack/jamstack-original.svg" /></a>
+<a href="https://www.heroku.com/" ><img align="left" alt="Heroku" title="Heroku" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" /></a>
 &emsp;
 
 <!-- BACKEND:END -->
 <!-- TOOLS:START -->
 
-[<img align="left" alt="Bash" title="Bash" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />](https://www.gnu.org/software/bash/)
-[<img align="left" alt="Git" title="Git" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />](https://git-scm.com/)
-[<img align="left" alt="Gradle" title="Gradle" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" />](https://gradle.org/)
-[<img align="left" alt="Babel" title="Babel" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" />](https://babeljs.io/)
-[<img align="left" alt="Webpack" title="Webpack" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />](https://webpack.js.org/)
-[<img align="left" alt="Yarn" title="Yarn" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" />](https://yarnpkg.com/)
-[<img align="left" alt="NPM" title="NPM" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />](https://www.npmjs.com/)
-[<img align="left" alt="Linux" title="Linux" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />](https://www.linux.org/)
-[<img align="left" alt="Windows" title="Windows" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />](https://www.microsoft.com/en-us/windows)
+<a href="https://www.gnu.org/software/bash/" ><img align="left" alt="Bash" title="Bash" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /></a>
+<a href="https://git-scm.com/" ><img align="left" alt="Git" title="Git" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /></a>
+<a href="https://gradle.org/" ><img align="left" alt="Gradle" title="Gradle" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" /></a>
+<a href="https://babeljs.io/" ><img align="left" alt="Babel" title="Babel" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" /></a>
+<a href="https://webpack.js.org/" ><img align="left" alt="Webpack" title="Webpack" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" /></a>
+<a href="https://yarnpkg.com/" ><img align="left" alt="Yarn" title="Yarn" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" /></a>
+<a href="https://www.npmjs.com/" ><img align="left" alt="NPM" title="NPM" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" /></a>
+<a href="https://www.linux.org/" ><img align="left" alt="Linux" title="Linux" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" /></a>
+<a href="https://www.microsoft.com/en-us/windows" ><img align="left" alt="Windows" title="Windows" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" /></a>
 &emsp;
 
 <!-- TOOLS:END -->
 <!-- DATA SCIENCE:START -->
 
-[<img align="left" alt="Matlab" title="Matlab" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" />](https://www.mathworks.com/products/matlab.html)
-[<img align="left" alt="Numpy" title="Numpy" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />](https://numpy.org/)
-[<img align="left" alt="Pandas" title="Pandas" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />](https://pandas.pydata.org/)
-[<img align="left" alt="TensorFlow" title="TensorFlow" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" />](https://www.tensorflow.org/)
+<a href="https://www.mathworks.com/products/matlab.html" ><img align="left" alt="Matlab" title="Matlab" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /></a>
+<a href="https://numpy.org/" ><img align="left" alt="Numpy" title="Numpy" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" /></a>
+<a href="https://pandas.pydata.org/" ><img align="left" alt="Pandas" title="Pandas" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" /></a>
+<a href="https://www.tensorflow.org/" ><img align="left" alt="TensorFlow" title="TensorFlow" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" /></a>
 &emsp;
 
 <!-- DATA SCIENCE:END -->
 <!-- PRODUCTIVITY:START -->
 
-[<img align="left" alt="Trello" title="Trello" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />](https://trello.com/)
-[<img align="left" alt="Jira" title="Jira" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" />](https://www.atlassian.com/software/jira)
-[<img align="left" alt="Slack" title="Slack" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" />](https://slack.com/)
+<a href="https://trello.com/" ><img align="left" alt="Trello" title="Trello" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" /></a>
+<a href="https://www.atlassian.com/software/jira" ><img align="left" alt="Jira" title="Jira" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" /></a>
+<a href="https://slack.com/" ><img align="left" alt="Slack" title="Slack" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" /></a>
 
 <!-- PRODUCTIVITY:END -->
 
