@@ -5,16 +5,4 @@ declare -a modified_files=$(git diff --name-only --staged | grep -E '\.(js|jsx|t
 if [ -n "$modified_files" ] ; then
     yarn prettier --write $modified_files
     git add .
-    yarn lint . $modified_files
-    # yarn test
-
-    resume='pages/resume.tsx'
-    if echo $modified_files | grep -w -q $resume ; then
-        echo "resume changed... generating PDF"
-        ./scripts/print-pdf-cv.sh
-        echo "success! PDF resume updated"
-        git add ./public/cv_ruben_vasquez.pdf
-    else
-        echo "resume OK... proceed"
-    fi
 fi
