@@ -7,7 +7,7 @@
 # More details at https://github.com/eslint/eslint
 # and https://eslint.org
 
-name: Lint, generate PDF, and upload to GitHub
+name: Lint, generate PDF, and upload to GitHub when merging to main
 
 on:
     push:
@@ -18,24 +18,25 @@ on:
 
 jobs:
     lint:
+        runs-on: ubuntu-latest
+        steps:
         - uses: actions/checkout@v3
 
-        - name: Set Node.js 16.x
-            uses: actions/setup-node@v3
-            with:
+        - uses: actions/setup-node@v3
+          with:
             node-version: 16.x
 
         - name: Run install
-            uses: borales/actions-yarn@v4
-            with:
+          uses: borales/actions-yarn@v4
+          with:
             cmd: lint
                     --ext .js,.jsx,.ts,.tsx
                     --format @microsoft/eslint-formatter-sarif
                     --output-file eslint-results.sarif
-        continue-on-error: true
+          continue-on-error: true
         - name: Upload analysis results to GitHub
-        uses: github/codeql-action/upload-sarif@v2
-        with:
+          uses: github/codeql-action/upload-sarif@v2
+          with:
             sarif_file: eslint-results.sarif
             wait-for-processing: true
     pdf:
