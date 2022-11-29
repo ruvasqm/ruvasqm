@@ -10,7 +10,7 @@ const Repos = ({ repos }: { repos: Repo[] }) => {
         >
             <SectionTitle title={'Repos'} />
             <div className='h-5' />
-            <Readme link={repos[7].readme_raw_url!} />
+            <Readme link={'/api/readme'} />
             {/* TODO: add pictures with parallax */}
         </section>
     )

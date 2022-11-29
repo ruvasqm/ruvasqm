@@ -136,6 +136,3 @@ div:has(> div.prose) {
     transform: perspective(10px) translateZ(-20px) translateX(-100%)
         translateY(-100%);
 }
-.prose:hover {
-    transform: perspective(10px) translateZ(0px) translateX(0%) translateY(0%);
-}

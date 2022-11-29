@@ -6,7 +6,7 @@ const RepoSchema = z.object({
     homepage: z.nullable(z.string()),
     topics: z.array(z.string()),
     description: z.nullable(z.string()),
-    // these are ment to be constructed after fetch
+    // these are ment to be constructed after fetching
     readme_raw_url: z.string().optional(),
     languages: z
         .array(
