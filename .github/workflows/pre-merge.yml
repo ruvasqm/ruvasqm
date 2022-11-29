@@ -29,6 +29,7 @@ jobs:
         - name: Run install
           run: |
              yarn global add @microsoft/eslint-formatter-sarif@2.1.7
+             yarn install
              yarn lint . --ext .js,.jsx,.ts,.tsx --format @microsoft/eslint-formatter-sarif --output-file eslint-results.sarif
         - name: Upload analysis results to GitHub
           uses: github/codeql-action/upload-sarif@v2
@@ -49,7 +50,8 @@ jobs:
             - name: Run project locally in another process
               run: |
                   yarn install
-                  echo "GITHUB_API_TOKEN={{ secrets.API_TOKEN }}" > .env
+                  export token={{ secrets.API_TOKEN }}
+                  echo "GITHUB_API_TOKEN=$token" > .env
                   yarn build
                   yarn start &
                   sleep 10
