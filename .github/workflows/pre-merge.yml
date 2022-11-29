@@ -1,0 +1,91 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# ESLint is a tool for identifying and reporting on patterns
+# found in ECMAScript/JavaScript code.
+# More details at https://github.com/eslint/eslint
+# and https://eslint.org
+
+name: Lint, generate PDF, and upload to GitHub
+
+on:
+    push:
+        branches: ['main']
+    pull_request:
+        # The branches below must be a subset of the branches above
+        branches: ['main']
+
+jobs:
+    lint:
+        - uses: actions/checkout@v3
+
+        - name: Set Node.js 16.x
+            uses: actions/setup-node@v3
+            with:
+            node-version: 16.x
+
+        - name: Run install
+            uses: borales/actions-yarn@v4
+            with:
+            cmd: lint
+                    --ext .js,.jsx,.ts,.tsx
+                    --format @microsoft/eslint-formatter-sarif
+                    --output-file eslint-results.sarif
+        continue-on-error: true
+        - name: Upload analysis results to GitHub
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+            sarif_file: eslint-results.sarif
+            wait-for-processing: true
+    pdf:
+        name: Generate PDF
+        runs-on: ubuntu-latest
+        permissions:
+            contents: read
+            security-events: write
+            actions: read # only required for a private repository by github/codeql-action/upload-sarif to get the Action run status
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Run project locally in another process
+              run: |
+                  yarn install
+                  yarn build
+                  yarn start &
+                  sleep 10
+            - name: Convert https://localhost:3000/resume to PDF
+              uses: 'ruvasqm/puppeteer-pdf-action@master'
+              with:
+                  url: https://localhost:3000/resume
+                  output-file-path: github.pdf
+            - name: Upload PDF to GitHub
+              uses: actions/upload-artifact@v2
+              with:
+                  name: github.pdf
+                  path: cv_ruben_vasquez.pdf
+    commit-pdf:
+        name: Commit PDF to dev branch
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            security-events: write
+            actions: read # only required for a private repository by github/codeql-action/upload-sarif to get the Action run status
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+              with:
+                  ref: dev
+            - name: Download PDF
+              uses: actions/download-artifact@v2
+              with:
+                  name: github.pdf
+                  path: cv_ruben_vasquez.pdf
+            - name: Commit PDF
+              run: |
+                git config --local user.email "ruvasqm@gmail.com"
+                git config --local user.name "Ruben Vasquez"
+                git add cv_ruben_vasquez.pdf
+                git commit -m "build: update PDF"
+                git push
