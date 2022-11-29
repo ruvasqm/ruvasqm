@@ -2,7 +2,7 @@ import type { ReactElement } from 'react'
 import type { NextPageWithLayout } from './_app'
 import type { wakaTimeStats, language } from '@components/time'
 import type { Repo } from '@utils'
-import { fetchRepos } from '@utils'
+import { fetchRepos, adjustContrast } from '@utils'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import resume from '@resume.json'
 import {
@@ -16,7 +16,6 @@ import {
     Repos,
     End,
 } from '@components'
-import { adjustContrast } from '@utils'
 
 const Page: NextPageWithLayout<
     InferGetStaticPropsType<typeof getStaticProps>
