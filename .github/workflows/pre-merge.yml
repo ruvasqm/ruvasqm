@@ -48,9 +48,12 @@ jobs:
               uses: actions/checkout@v3
 
             - name: Run project locally in another process
+              env:
+                GITHUB_API_TOKEN: ${{ secrets.API_TOKEN }}
               run: |
                   yarn install --frozen-lockfile
-                  echo "GITHUB_API_TOKEN=${{secrets.API_TOKEN}}" > .env
+                  echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN}"
+                  echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > .env
                   yarn build
                   yarn start &
                   sleep 10
