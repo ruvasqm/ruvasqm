@@ -28,8 +28,8 @@ const Page: NextPageWithLayout<
             <About />
             <Idea />
             <Time languages={languages} activity={activity} />
-            <Repos repos={repos} />
-            <End />
+            {/* <Repos repos={repos} /> */}
+            {/* <End /> */}
             <Footer />
         </>
     )

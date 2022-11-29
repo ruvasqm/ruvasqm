@@ -3,7 +3,7 @@ import { SectionTitle } from '@components'
 const About = () => (
     <section
         id='about'
-        className='flex flex-col items-start justify-start lg:justify-center bg-secondary text-white w-full h-full p-10 unselectable font-bold'
+        className='flex flex-col items-start justify-start lg:justify-center bg-secondary text-white w-full h-full p-10 unselectable font-bold  snap-start snap-normal'
     >
         <SectionTitle title={'About me'} />
         <div className='h-5' />

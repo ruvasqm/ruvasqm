@@ -82,7 +82,7 @@ const End: React.FunctionComponent = () => {
     return (
         <section
             id='end'
-            className='relative flex flex-col lg:flex-row items-center justify-end bg-secondary text-white w-full h-[110vh] sm:h-full lg:h-3/4 p-10 unselectable font-medium'
+            className='relative flex flex-col lg:flex-row items-center justify-end bg-secondary text-white w-full h-[110vh] sm:h-full lg:h-3/4 p-10 unselectable font-medium snap-center snap-normal'
         >
             <div className='absolute flex items-center justify-center w-full h-full lg:left-0 lg:w-1/2 overflow-hidden sm:overflow-visible'>
                 {orbittingTerms}

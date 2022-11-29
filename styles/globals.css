@@ -59,13 +59,6 @@
     font-display: swap;
 }
 
-html,
-body,
-#__next {
-    height: 100%;
-    width: 100%;
-}
-
 @page {
     margin: 0;
     -webkit-print-color-adjust: exact !important;
@@ -99,30 +92,30 @@ body,
     user-select: none; /* Standard */
 }
 
-html {
+#__next > main {
     overflow: overlay;
 }
-html::-webkit-scrollbar {
+#__next > main::-webkit-scrollbar {
     width: 10px;
 }
 
-html::-webkit-scrollbar-track {
+#__next > main::-webkit-scrollbar-track {
     background-color: transparent;
 }
-html::-webkit-scrollbar-track-piece {
+#__next > main::-webkit-scrollbar-track-piece {
     display: none;
 }
-html::-webkit-scrollbar-thumb {
+#__next > main::-webkit-scrollbar-thumb {
     @apply bg-primary;
     border-radius: 10px;
 }
 
-html::-webkit-scrollbar-thumb:hover {
+#__next > main::-webkit-scrollbar-thumb:hover {
     background: rgb(70 71 68 / var(--tw-bg-opacity));
     border-radius: 10px;
 }
 
-html::-webkit-scrollbar-thumb:active {
+#__next > main::-webkit-scrollbar-thumb:active {
     background: rgb(70 71 68 / var(--tw-bg-opacity));
     border-radius: 10px;
 }

@@ -34,9 +34,9 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
     return (
         <section
             id='time'
-            className='flex flex-col-reverse lg:flex-row items-start justify-start lg:justify-center bg-secondary text-white w-full lg:h-3/4 p-10 unselectable font-bold'
+            className='flex flex-col-reverse lg:flex-row items-start justify-start lg:justify-around bg-secondary text-white w-full lg:h-3/4 p-10 unselectable font-bold snap-center snap-normal'
         >
-            <div className='flex flex-col w-full lg:p-5 h-[30vh] lg:w-1/2 items-center justify-center lg:h-full'>
+            <div className='flex flex-col w-full lg:p-5 h-[30vh] lg:w-1/3 items-center justify-center lg:h-full'>
                 <p className='text-lg sm:text-2xl lg:text-3xl unselectable'>
                     We dedicate ourselves to them,
                     <br />
@@ -46,7 +46,7 @@ const Time = ({ languages, activity }: wakaTimeStats) => {
                     and hope that they will be worth it.
                 </p>
             </div>
-            <div className='flex flex-col lg:w-1/2 items-start lg:items-end sm:h-full lg:p-5'>
+            <div className='flex flex-col lg:w-1/3 items-start lg:items-end sm:h-full lg:p-5'>
                 <SectionTitle
                     title={
                         <a

@@ -6,12 +6,15 @@ const Layout = ({ children }: { children: ReactElement }) => {
     return (
         <>
             <Navbar className={`${showNav ? '' : 'hidden'}`} />
-            <main className='h-full w-full'>{children}</main>
-            <div className='z-10 flex flex-row items-center justify-center w-full bg-transparent text-current'>
+            <main className='h-screen w-screen overflow-scroll snap-y scroll-smooth snap-mandatory'>
+                {children}
+            </main>
+            {/* <div className='z-10 flex flex-row items-center justify-center w-full bg-transparent text-current'>
                 <button className='text-center  bg-transparent animate-bounce'>
                     <Icon name="Let's go" icon='/arrow.svg' href='/#about' />
                 </button>
-            </div>
+            </div> */}
+            {/* TODO: Add arrow button */}
         </>
     )
 }
