@@ -72,7 +72,7 @@ jobs:
               with:
                   name: resume
                   path: cv_ruben_vasquez.pdf
-      commit-pdf:
+    commit-pdf:
         name: Commit PDF
         runs-on: ubuntu-latest
         needs: [lint, pdf]
