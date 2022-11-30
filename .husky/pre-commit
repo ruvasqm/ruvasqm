@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-declare -a modified_files=$(git diff --name-only --staged | grep -E '\.(js|jsx|ts|tsx)$')
+declare -a modified_files=$(git diff --name-only --staged | grep -E '^(components|pages).*?\.(js|jsx|ts|tsx)$')
 if [ -n "$modified_files" ] ; then
     yarn prettier --write $modified_files
     git add .
