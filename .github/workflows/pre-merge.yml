@@ -67,9 +67,8 @@ jobs:
               with:
                   url: http://localhost:3000/resume
                   output-file-path: public/cv_ruben_vasquez.pdf
-            - name: Commit PDF
-              uses: actions/checkout@v3
-              run: |
+            - uses: actions/checkout@v3
+            - run: |
                   git config --local user.email "ruvasqm@gmail.com"
                   git config --local user.name "Ruben Vasquez"
                   git add public/cv_ruben_vasquez.pdf
