@@ -85,9 +85,11 @@ jobs:
               uses: actions/download-artifact@v2
               with:
                   name: resume
-                  path: public/cv_ruben_vasquez.pdf
+                  path: cv_ruben_vasquez.pdf
             - name: Commit PDF
               run: |
+              # force push move file to public folder
+                  mv -f cv_ruben_vasquez.pdf public/cv_ruben_vasquez.pdf
                   git config --local user.email "ruvasqm@gmail.com"
                   git config --local user.name "Ruben Vasquez"
                   git add public/cv_ruben_vasquez.pdf
