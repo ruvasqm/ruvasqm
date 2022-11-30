@@ -34,6 +34,8 @@
 <a style='display:inline-block;' href="https://www.atlassian.com/software/jira" ><img align="left" alt="Jira" title="Jira" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" /></a>
 <a style='display:inline-block;' href="https://slack.com/" ><img align="left" alt="Slack" title="Slack" width="26px" style="margin-right:0.5rem; margin-left:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" /></a><div/>
 <br />
+<br />
+<br />
 
 ---
 
