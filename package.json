@@ -25,7 +25,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.2.0",
-    "@svgr/webpack": "^6.5.0",
+    "@svgr/webpack": "^6.5.1",
     "@tailwindcss/typography": "^0.5.8",
     "@types/node": "18.11.9",
     "@types/react": "18.0.9",
