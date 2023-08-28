@@ -42,19 +42,19 @@ shrink ()
 
 	# Allow unquoted variables; we want word splitting for $gray_params.
 	# shellcheck disable=SC2086
-	gss					\
+	gs					\
 	  -q -dNOPAUSE -dBATCH -dSAFER		\
 	  -sDEVICE=pdfwrite			\
 	  -dCompatibilityLevel="$4"		\
-	  -dPDFSETTINGS="//screen"		\
+	  -dPDFSETTINGS="/screen"		\
 	  -dEmbedAllFonts=true			\
 	  -dSubsetFonts=true			\
-	  -dAutoRotatePages="//None"		\
-	  -dColorImageDownsampleType="//Bicubic"	\
+	  -dAutoRotatePages="/None"		\
+	  -dColorImageDownsampleType="/Bicubic"	\
 	  -dColorImageResolution="$3"		\
-	  -dGrayImageDownsampleType="//Bicubic"	\
+	  -dGrayImageDownsampleType="/Bicubic"	\
 	  -dGrayImageResolution="$3"		\
-	  -dMonoImageDownsampleType="//Subsample"	\
+	  -dMonoImageDownsampleType="/Subsample"	\
 	  -dMonoImageResolution="$3"		\
 	  -sOutputFile="$2"			\
 	  ${gray_params}			\
