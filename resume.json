@@ -119,7 +119,56 @@
                 "Gitflow",
                 "TDD"
             ]
-        }
+        },
+        {
+            "name": "Libsyn",
+            "position": "Full Stack Web Developer",
+            "url": "https://libsyn.com/"
+            "startDate": "2022-07-07",
+            "endDate": "2022-09-31",
+            "summary": "Libsyn offers the best, most complete podcast hosting and publishing services available. I was in charge of developing and optimizing data collection for KPI Analytics and visualization, also built several custom cloud functions including an accurate and fast MP3 frame seeking script for realtime ad insertions.",
+            "highlights": [
+                "Code review",
+                "Bug fixing",
+                "Data aggregation",
+                "Data visualization",
+                "Zend Framework",
+                "Agile development",
+                "Scrum"
+            ]
+        },
+        {
+            "name": "Datafiniti",
+            "position": "Software Engineer Advisor",
+            "url": "https://datafiniti.co/"
+            "startDate": "2022-10-15",
+            "endDate": "2023-07-31",
+            "summary": "Datafiniti provides instant access to web data. I developed custom web scrapers to funnel data into their database.",
+            "highlights": [
+                "Web scraping",
+                "Data aggregation",
+                "Data visualization",
+                "Agile development",
+                "Scrum"
+            ]
+        },
+        {
+            "name": "Cigna",
+            "position": "Senior Software Engineer",
+            "url": "https://www.cigna.com/"
+            "startDate": "2023-02-15",
+            "endDate": "2023-07-31",
+            "summary": "Cigna is a global health service company dedicated to helping people improve their health, well-being and peace of mind. I was a part of the Engineering acceleration team and helped in a couple of Cloud Patterns team issues.",
+            "highlights": [
+                "AWS",
+                "Command line tools",
+                "Automation Scripts",
+                "CI/CD pipelines",
+                "Container Security and Compliance",
+                "IaC",
+                "Agile development",
+                "Scrum"
+            ]
     ],
     "volunteer": [
         {
