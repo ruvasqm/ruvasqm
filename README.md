@@ -1,4 +1,4 @@
-[website]: https://ruvasqm.tech
+[website]: https://ruvasq.me
 [twitter]: https://twitter.com/rdvm69
 [instagram]: https://instagram.com/rvasqm
 [linkedin]: https://linkedin.com/in/ruvasqm
