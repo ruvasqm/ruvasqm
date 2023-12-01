@@ -14,7 +14,7 @@
 
 ### Connect with me:
 
-<div style="display:flex; aling-items:start; padding : 0.5rem 0 0.5rem;"><a href="https://ruvasqm.tech"><img alt="ruvasqm.tech" width="26px" style="margin-right:1rem;" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" /></a>
+<div style="display:flex; aling-items:start; padding : 0.5rem 0 0.5rem;"><a href="https://ruvasq.me"><img alt="ruvasq.me" width="26px" style="margin-right:1rem;" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" /></a>
 <a href="https://twitter.com/rdvm69"><img alt="ruvasqm | Twitter" width="26px" style="margin-right:1rem;" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" /></a>
 <a href="https://linkedin.com/in/ruvasqm"><img alt="ruvasqm | LinkedIn" width="26px" style="margin-right:1rem;" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a>
 <a href="https://instagram.com/rvasqm"><img alt="ruvasqm | Instagram" width="26px" style="margin-right:1rem;" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" /></a></div>
