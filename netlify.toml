@@ -1,3 +1,2 @@
 [functions]
     included_files = ["public/cv_ruben_vasquez.pdf"]
-    external_node_modules = ["stream"]
