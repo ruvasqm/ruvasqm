@@ -1,2 +1,3 @@
 [functions]
-    included_files = ["public/cv_ruben_vasquez.pdf"]
+    included_files = ["public/cv_ruben_vasquez.pdf", "node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context*",
+  "node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context*",]

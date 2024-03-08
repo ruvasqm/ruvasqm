@@ -3,10 +3,8 @@ import { ImageResponse } from '@vercel/og'
 // import { NextRequest } from 'next/server';
 import '@styles/globals.css'
 
-// enable experimental edage
-
 export const config = {
-    runtime: 'experimental-edge',
+    runtime: 'edge',
 }
 // ?width=<width>&height=<height>
 export default function handler(req) {
