@@ -61,16 +61,17 @@ const fetchRepos = async (): Promise<Repo[]> => {
                 const languages = await res.json()
                 const result = RepoLanguages.safeParse({
                     languages:
-                        Object.entries(languages).map(([name, bytes]) => ({
+                        Object.entries(languages).map(([name, bytes]) => {
+                      return  {
                             name: z.string().parse(name),
                             bytes: z.number().parse(bytes),
                             color: z
                                 .string()
                                 .parse(
-                                    languageColors[name.toLowerCase()].color ||
+                                    languageColors[name.toLowerCase()]?.color ??
                                         '#000000'
                                 ),
-                        })) || [],
+                        }}) || [],
                 })
                 if (!result.success) {
                     throw new Error(
