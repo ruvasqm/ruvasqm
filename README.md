@@ -1,5 +1,10 @@
-## Hi there 👋
+## Up for
+- Web
+- AI
+- Scripting
 
+
+[![wakatime](https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg)](https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg)
 <!--
 **ruvasqm/ruvasqm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
