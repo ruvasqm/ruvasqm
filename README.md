@@ -3,7 +3,7 @@
 | ------------------------- | ------------- |
 | Web/AI/Scripting        | <img src="https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg" width="400" height="400" />  |
 -->
-## will code for food
+## will code for 24K SAT/h
 <!-- https://wakatime.com/insights/animated/days.gif -->
 [![wakatime](https://wakatime.com/share/@ruvasqm/260708d9-e1bf-446f-8b0c-10756b463e88.svg)](https://wakatime.com/share/@ruvasqm/260708d9-e1bf-446f-8b0c-10756b463e88.svg)
 <!-- [![wakatime](https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg)](https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg) -->
