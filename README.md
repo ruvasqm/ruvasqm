@@ -1,11 +1,14 @@
-
+> The best way to predict the future is to invent it.
+>
+> ~ **Alan Kay**
 <!-- | Up for                    | Activity      |
 | ------------------------- | ------------- |
 | Web/AI/Scripting        | <img src="https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg" width="400" height="400" />  |
 -->
-## My time:
+<!-- ## My time: -->
 <!-- https://wakatime.com/insights/animated/days.gif -->
-[![wakatime](https://wakatime.com/share/@ruvasqm/260708d9-e1bf-446f-8b0c-10756b463e88.svg)](https://wakatime.com/share/@ruvasqm/260708d9-e1bf-446f-8b0c-10756b463e88.svg)
+<!-- Dis the one: -->
+<!-- [![wakatime](https://wakatime.com/share/@ruvasqm/260708d9-e1bf-446f-8b0c-10756b463e88.svg)](https://wakatime.com/share/@ruvasqm/260708d9-e1bf-446f-8b0c-10756b463e88.svg) -->
 <!-- [![wakatime](https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg)](https://wakatime.com/share/@ruvasqm/53cdc809-62fe-41a8-8a17-4e18a9818db8.svg) -->
 <!--
 **ruvasqm/ruvasqm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
